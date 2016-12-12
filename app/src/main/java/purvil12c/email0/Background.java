@@ -51,7 +51,7 @@ public class Background extends Service {
       //  Toast.makeText(Background.this,x,Toast.LENGTH_LONG).show();
 
         try {
-            GMailSender sender = new GMailSender("shah.kaushal95@gmail.com", "KAUSHAL28()()96",Background.this);
+            GMailSender sender = new GMailSender("shah.kaushal95@gmail.com", "your_pass_here!",Background.this);
             sender.sendMail(model,
                     x,
                     "shah.kaushal95@gmail.com",
